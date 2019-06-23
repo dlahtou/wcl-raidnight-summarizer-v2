@@ -1,0 +1,21 @@
+plugins {
+    id "org.springframework.boot" version '2.1.6.RELEASE'
+}
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.9'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.9'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.9'
+    compile group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.9'
+    compile group: 'org.immutables', name: 'value', version: '2.7.4'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
+}
+
+apply plugin: 'idea'

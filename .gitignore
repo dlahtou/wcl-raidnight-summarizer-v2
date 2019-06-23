@@ -1,0 +1,4 @@
+wcl-raidnight-summarizer*
+.gradle/*
+generated/*
+lib/*
